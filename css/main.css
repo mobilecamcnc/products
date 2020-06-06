@@ -1,0 +1,561 @@
+:root{
+	--title-color:red;
+  --main-color:#191C21;
+  --panel-color:#1E2127;
+  --font-color:#b1beb5;
+  --main-border:#191C21;
+  --main-font-color:#005480;
+  --font-size:18px;
+}
+
+/* MAIN */
+
+@font-face {
+  font-family: lucida_grande;
+  src: url('../resources/fonts/Proxima Nova Alt Light.otf');
+}
+
+body{
+	font-family:lucida_grande;
+	background: #f1f1f1;
+	height: 100%;
+  margin: 0;
+}
+
+#app{
+	height: 100%;
+  margin: 0;
+}
+
+.hide{
+	display: none;
+}
+
+.bottom-margin{
+	margin-bottom: 10px;
+}
+
+#content{
+	padding: 10px 5px;
+	background-color: #fff;
+}
+
+#content .card{
+	padding: 5px 10px 10px 10px;
+	background-color: #fff;
+	height: auto;
+	border-radius: 2px;
+	margin-bottom: 10px;
+}
+
+#content .card p{
+	color:var(--panel-color);
+	font-size: 18px;
+}
+
+#content .card h3{
+	font-size: 45px;
+	color: var(--main-font-color);
+}
+
+#content .card .adv{
+	color: #000;
+}
+
+#content .card .adv span{
+	color: red;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+#content .card img{
+	width:100px;
+	height: 100px;
+}
+
+.product{
+	border:1px solid lightGray;
+	height: 200px;
+}
+
+@media only screen and (min-width: 768px) {
+	#content .card{
+		margin-bottom: 0;
+	}
+
+	.bottom-margin{
+		margin-bottom: 20px;
+	}
+}
+
+/* CONTACT */
+
+#contact{
+	padding: 10px 5px;
+	background-color: #fff;
+}
+
+#contact h1{
+	font-size: 45px;
+	color:var(--main-font-color);
+}
+
+/* DOWNLOAD */
+
+#download{
+	/*background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../resources/milling.jpg");*/
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 50px 5px;
+}
+
+#download h1{
+	color:#000;
+}
+
+#download p{
+	color:gray;
+}
+
+#download .card{
+	background-color: #fff;
+}
+
+#download .card2{
+	background-color: transparent;
+}
+
+.price-card{
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0px 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  width:100%;
+	border-radius: 5px;
+	margin-top:20px; 
+}
+
+@media only screen and (min-width: 768px) {
+  .price-card{
+    width:50%;
+    margin-top:0;
+  }
+
+  #download .card{
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  }
+
+  #download .card2{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.price-card .header {
+  background-color: #fff;
+  color: var(--main-font-color);
+  font-size: 35px;
+}
+
+.price-card li {
+  border-bottom: 1px solid #D6D6D6;
+  padding: 20px;
+  text-align: center;
+}
+
+.price-card li span{
+	color:var(--main-font-color);
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.price-card .grey {
+  background-color: #fff;
+  font-size: 20px;
+  border:none;
+}
+
+.button {
+  background-color: transparent;
+  border:1px solid red;
+  color:red;
+  border-radius: 5px;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#download .card2 .header{
+	background-color: transparent;
+}
+
+#download .card2 .grey{
+	background-color: transparent;
+  border:none;
+}
+
+#download .card2 .button{
+	border:1px solid var(--main-font-color);
+  color:var(--main-font-color);
+}
+
+/* HEADER */
+
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  background-color:#fff;
+  background-color: transparent;
+  padding: 5px 5px;
+  position: relative;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 16px; 
+  line-height: 32px;
+  border-radius: 4px;
+}
+
+.header a {
+  float: none;
+  display: block;
+  text-align: left;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  color:var(--title-color);
+  width: 50%;
+}
+
+.header-right {
+  float: none;
+}
+
+.header-right a:hover {
+  color: var(--main-font-color);
+}
+
+
+.header a.active {
+  color: var(--main-font-color);
+}
+
+.header a.download{
+  border:1px solid var(--main-font-color);
+  color: var(--main-font-color);
+}
+
+
+@media only screen and (min-width: 768px) {
+  .header a {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    display: inline;
+  }
+}
+
+/* HERO */
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../resources/images/milling.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.hero-text h1{
+  color:var(--main-font-color);
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+.product-image{
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+@media only screen and (min-width: 768px) {
+  .product-image{
+    width: 100%;
+  }
+}
+
+/* MENU */
+
+#menu{
+	width: 100%;
+	height: 50px;
+	position: relative;
+}
+
+#menu a {
+ 	color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px; 
+  border-radius: 4px;
+}
+
+#menu .logo{
+	position: absolute;
+	top:50%;
+	left: 10px;
+	transform: translateY(-50%);
+	font-size: 25px;
+  font-weight: bold;
+  color:var(--title-color);
+  background-color: var(--main-font-color);
+  padding: 5px;
+}
+
+#menu .logo span{
+	color: #fff;
+}
+
+#menu .features-box{
+	position: absolute;
+	top:50%;
+	right: 10px;
+	transform: translateY(-50%);
+	height: auto;
+}
+
+#menu .features-box::after{
+	clear: both;
+}
+
+#menu .features-box .hamburger{
+	position: relative;
+	padding: 10px;
+	font-size: 16px;
+  font-weight: bold;
+  float: left;
+}
+
+#menu .features-box .hamburger:hover{
+	cursor: pointer;
+}
+
+#menu .features-box .hamburger div{
+	width:25px;
+	height: 1px;
+	margin:5px 0px;
+	background-color: #000;
+}
+
+/* OVERLAY */
+
+#overlay{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width:100%;
+	height:100%;
+	opacity: 0.5;
+	background-color: #000;
+	z-index:9;
+}
+
+/* SIDEBAR */
+
+#sidebar{
+	position: fixed;
+	top: 0;
+	right: -200px;
+	width: 200px;
+	height: 100%;
+	background-color:rgb(51,51,51); 
+	overflow:auto;
+  z-index: 10;
+  transition: 0.3s;
+  padding: 10px;
+  margin: 0;
+}
+
+.show-sidebar{
+	right:0 !important;
+}
+
+#sidebar .logo{
+	padding: 10px 5px;
+	color: red;
+	font-size: 30px;
+	text-align: center;
+	background-color:var(--main-font-color);
+	border-radius: 5px; 
+}
+
+#sidebar .logo span{
+	color: #fff;
+}
+
+#sidebar a{
+	text-decoration: none;
+	width:100%;
+	height: 30px;
+	border-radius: 5px;
+	display: block;
+	position: relative;
+	color:dodgerBlue;
+}
+
+#sidebar a:hover{
+	cursor: pointer;
+	background-color: rgb(71,71,71); 
+}
+
+#sidebar .sign,
+#sidebar label{
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+}
+
+#sidebar .sign{
+	left: 10px;
+	width:12px;
+	height:12px;
+	border-radius: 50%;
+	transition: 0.3s;
+	border:1px solid dodgerBlue;
+}
+
+#sidebar a:hover .sign {
+  background-color: dodgerBlue;
+  border:1px solid dodgerBlue;
+}
+
+#sidebar label{
+	left: 40px;
+}
+
+#sidebar .bar{
+	width:90%;
+	height: 3px;
+	background-color: rgb(71,71,71); 
+	margin:10px 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* FOOTER */
+
+footer{
+  background-color:#fff;
+  width: 100%;
+  position: absolute;
+  background: #f1f1f1;
+}
+
+.footer-row{
+	width:80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer-section{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.footer-section a{
+	padding: 10px 10px;
+}
+
+.footer-section a{
+	display: inline-block;
+}
+
+footer a{
+	color: gray;
+	text-decoration: none;
+}
+
+@media only screen and (min-width: 600px) {
+	.footer-section a{
+		padding: 10px 20px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.footer-section a{
+		padding: 10px 40px;
+	}
+}
+
+.footer-info{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.footer-cat{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin-top: 10px;
+	padding: 10px;
+	text-align: left
+}
+
+.footer-cat a{
+	display: block;
+}
+
+.policy a{
+	font-weight: bold;
+	color:#000;
+}

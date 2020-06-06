@@ -1,0 +1,87 @@
+:root{
+	--title-color:red;
+  --main-color:#191C21;
+  --panel-color:#1E2127;
+  --font-color:#b1beb5;
+  --main-border:#191C21;
+  --main-font-color:#005480;
+  --font-size:18px;
+}
+
+@font-face {
+  font-family: lucida_grande;
+  src: url('../resources/fonts/Proxima Nova Alt Light.otf');
+}
+
+body{
+	font-family:lucida_grande;
+	background: #f1f1f1;
+	height: 100%;
+  margin: 0;
+}
+
+#app{
+	height: 100%;
+  margin: 0;
+}
+
+.hide{
+	display: none;
+}
+
+.bottom-margin{
+	margin-bottom: 10px;
+}
+
+#content{
+	padding: 10px 5px;
+	background-color: #fff;
+}
+
+#content .card{
+	padding: 5px 10px 10px 10px;
+	background-color: #fff;
+	height: auto;
+	border-radius: 2px;
+	margin-bottom: 10px;
+}
+
+#content .card p{
+	color:var(--panel-color);
+	font-size: 18px;
+}
+
+#content .card h3{
+	font-size: 45px;
+	color: var(--main-font-color);
+}
+
+#content .card .adv{
+	color: #000;
+}
+
+#content .card .adv span{
+	color: red;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+#content .card img{
+	width:100px;
+	height: 100px;
+}
+
+.product{
+	border:1px solid lightGray;
+	height: 200px;
+}
+
+@media only screen and (min-width: 768px) {
+	#content .card{
+		margin-bottom: 0;
+	}
+
+	.bottom-margin{
+		margin-bottom: 20px;
+	}
+}

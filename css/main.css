@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: lucida_grande;
-  src: url('../resources/fonts/Proxima Nova Alt Light.otf');
+  src: url('/resources/fonts/Proxima Nova Alt Light.otf');
 }
 
 body{

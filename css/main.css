@@ -11,6 +11,7 @@
 *{
   box-sizing: border-box;
 }
+
 /* MAIN */
 
 @font-face {
@@ -88,6 +89,125 @@ body{
 
 	.bottom-margin{
 		margin-bottom: 20px;
+	}
+}
+
+/* PRODUCT */
+
+#products{
+	/*padding: 10px;*/
+	font-size: 20px;
+	font-weight: bold;
+	padding: 20px 5px;
+	background-color: #fff;
+}
+
+#products .row{
+	
+}
+
+
+#products .card{
+	width: 100%;
+}
+
+#products .text-content{
+	margin-bottom: 40px;
+}
+
+#products .card span{
+	width: 100%;
+	text-align: right;
+	display: inline-block;
+	color: var(--main-font-color);
+	font-size: 24px;
+	margin-top: 20px;
+}
+
+#products .card h3{
+	font-size: 45px;
+	color: red;
+	padding: 0;
+	margin: 20px 0px;
+}
+
+#products .card img{
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+	display: block;
+}
+
+@media only screen and (min-width: 768px) {
+	#products .card{
+		padding: 10px;
+		width: 100%;
+	}
+
+	#products .text-content{
+		margin-bottom: 0;
+	}
+}
+
+
+/* MISSION */
+
+#mission{
+	/*padding: 10px;*/
+	font-size: 20px;
+	font-weight: bold;
+	padding: 20px 5px;
+}
+
+#mission .row{
+	
+}
+
+.align-component-center{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#mission .card{
+	width: 100%;
+}
+
+#mission .text-content{
+	margin-bottom: 40px;
+}
+
+#mission .card span{
+	width: 100%;
+	text-align: right;
+	display: inline-block;
+	color: var(--main-font-color);
+	font-size: 24px;
+	margin-top: 20px;
+}
+
+#mission .card h3{
+	font-size: 45px;
+	color: red;
+	padding: 0;
+	margin: 20px 0px;
+}
+
+#mission .card img{
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+	display: block;
+}
+
+@media only screen and (min-width: 768px) {
+	#mission .card{
+		padding: 10px;
+		width: 100%;
+	}
+
+	#mission .text-content{
+		margin-bottom: 0;
 	}
 }
 
@@ -563,4 +683,8 @@ footer a{
 .policy a{
 	font-weight: bold;
 	color:#000;
+}
+
+.policy a span{
+	font-weight:normal;
 }

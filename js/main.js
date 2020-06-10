@@ -389,13 +389,8 @@
 												        Mobile <span>CAM</span>
 												     	</div>
 												     	<div style="margin-bottom:20px"></div>
-												     	<a class="item" href="#about">
-												     		<div class="sign"></div><label>Mission</label>
-												     	</a>
-												     	<a class="item" href="#about">
-												     		<div class="sign"></div><label>Products</label>
-												     	</a>
-												     	<a class="item" href="#about">
+												     	
+												     	<a class="item" href="#download">
 												     		<div class="sign"></div><label>Download</label>
 												     	</a>
 												     	<a class="item" href="#contact">
@@ -412,13 +407,13 @@
 												     		<div class="sign"></div><label>FAQ</label>
 												     	</a>
 												     	<div class="bar"></div>
-												     	<a class="item" href="#about">
+												     	<a class="item" href="https://www.facebook.com/Mobile-CAM-CNC-109696747422561/">
 												     		<div class="sign"></div><label>Facebook</label>
 												     	</a>
-												     	<a class="item" href="#about">
+												     	<a class="item" href="https://www.instagram.com/mobilecamcnc/">
 												     		<div class="sign"></div><label>Instagram</label>
 												     	</a>
-												     	<a class="item" href="#contact">
+												     	<a class="item" href="https://www.youtube.com/channel/UC1jqMGHbE-v0UPthEAwQl_w?view_as=subscriber">
 												     		<div class="sign"></div><label>Youtube</label>
 												     	</a>
 												     </nav>`;

@@ -92,17 +92,16 @@ body{
 	}
 }
 
-/* PRODUCT */
+/* PRICE CARD */
 
-#products{
-	/*padding: 10px;*/
-	font-size: 20px;
-	font-weight: bold;
-	padding: 20px 5px;
-	background-color: #fff;
+.price-card .ckecked::after{
+	content: '\2714';
 }
 
-
+.price-card .unckecked::after{
+	content: '\2718';
+	color: red;
+}
 
 .align-component-center{
 	margin-left: auto;

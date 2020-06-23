@@ -96,6 +96,7 @@ body{
 
 .price-card .ckecked::after{
 	content: '\2714';
+	color:var(--main-font-color);
 }
 
 .price-card .unckecked::after{

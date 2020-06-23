@@ -20,22 +20,81 @@
       <div id="sidebar"></div>
       <div id="overlay-container"></div>
       <div id="modal-box" class="hide"></div>
-      
-      <div id="content">
-        <div class="row bottom-margin">
-          <div class="column col-12">
-            <h3>How to define a depth in a Smart Tapping cycle?</h3>
-            Insert the exact value for the depth value, Mobile CAM CNC will add the value of the angle point  length and the allowance for chips (if needed)
-          </div>
+      <main>
+        <div id="content">
+          <div class="faq">
+              <div class="row line">
+                <div class="column col-12">
+                  <h1>FAQ</h1>
+                </div>
+              </div>
+              <div class="row bottom-margin">
+                <div class="column col-12">
+                  <h3>How to define a depth in a Smart Tapping cycle?</h3>
+                  Insert the exact value for the depth value, Mobile CAM CNC will add the value of the angle point  length and the allowance for chips (if needed)
+                </div>
+              </div>
+
+              <div class="row bottom-margin">
+                <div class="column col-12">
+                  <h3>How to define a depth in a drilling cycle?</h3>
+                  As with the Smart Tapping cycle, you can enter the exact value for the hole depth. Mobile CAM CNC will add the value of drill angle dependence based on data from the tool magazine (Tools).
+                </div>
+              </div> 
+
+              <div class="row bottom-margin">
+                <div class="column col-12">
+                  <h3>I don’t want to use a chamfer tool in Smart Tapping or drilling operation, how to do it?</h3>
+                  If you don’t wish to use a chamfer tool, press chamfer in your operation and insert ‘0’, and then press execute.
+
+
+                </div>
+              </div> 
+
+              <div class="row bottom-margin">
+                <div class="column col-12">
+                  <h3>What if I want to have exact depth without any correction in a drilling cycle?</h3>
+                  If you don't want to have any additional value added to your drill bit, insert 180 as a drill bit angle.
+
+
+                </div>
+              </div>
+
+              <div class="row bottom-margin">
+                <div class="column col-12">
+                  <h3>How to drilling, tapping, boring or so on below workpiece coordinate Z0?</h3>
+                  It’s easy in any cycle press next until you reach origin shift, then in origin Z please insert a negative value.
+                </div>
+              </div>  
+
+              <div class="row bottom-margin">
+                <div class="column col-12">
+                  <h3>My CNC machine doesn’t have a coolant through, how I can use Smart Tapping cycle?</h3>
+                  Go to settings, there you will find the technology input group, in the coolant through, please  insert value "0" and press the save button. From now, Mobile CAM CNC will skip all of coolant through tools.
+
+                </div>
+              </div>  
+
+              <div class="row bottom-margin">
+                <div class="column col-12">
+                  <h3>How to assign a canned cycle for a drilling, tapping etc?</h3>
+                  Mobile CAM CNC automatically assigns the appropriate canned cycle to the operational depth.
+
+
+                </div>
+              </div> 
+
+              <div class="row bottom-margin">
+                <div class="column col-12">
+                  <h3>If you cannot save the file, go to the device settings and then apps, find the Mobile CAM CNC, change the permissions to "allow storage”.
+
+
+
+                </div>
+              </div> 
+            </div>
         </div>
-        <div class="row bottom-margin">
-          <div class="column col-12">
-            <h3>How to define a depth in a drilling cycle?</h3>
-            As with the Smart Tapping cycle, you can enter the exact value for the hole depth. Mobile CAM CNC will add the value of drill angle dependence based on data from the tool magazine (Tools).
-          </div>
-        </div> 
-      </div>
-      
+      </main>
       
       <footer>
         <div class="row footer-row bottom-margin">

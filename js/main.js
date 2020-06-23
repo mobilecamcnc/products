@@ -390,22 +390,17 @@
 												     	</div>
 												     	<div style="margin-bottom:20px"></div>
 												     	
-												     	<a class="item" href="#download">
+												     	<a class="item" href="https://mobilecamcnc.github.io/products/#download">
 												     		<div class="sign"></div><label>Download</label>
 												     	</a>
-												     	<a class="item" href="#contact">
-												     		<div class="sign"></div><label>Contact</label>
-												     	</a>
-												     	<div class="bar"></div>
-												     	<a class="item" href="#about">
-												     		<div class="sign"></div><label>First step</label>
-												     	</a>
-												     	<a class="item" href="#about">
-												     		<div class="sign"></div><label>Manual</label>
-												     	</a>
-												     	<a class="item" href="#contact">
+												     	<a class="item" href="https://mobilecamcnc.github.io/products/faq.html">
 												     		<div class="sign"></div><label>FAQ</label>
 												     	</a>
+												     	
+												     	<a class="item" href="https://mobilecamcnc.github.io/products/#contact">
+												     		<div class="sign"></div><label>Contact</label>
+												     	</a>
+
 												     	<div class="bar"></div>
 												     	<a class="item" href="https://www.facebook.com/Mobile-CAM-CNC-109696747422561/">
 												     		<div class="sign"></div><label>Facebook</label>

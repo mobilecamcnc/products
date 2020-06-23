@@ -543,6 +543,7 @@ footer{
 footer a{
 	color: gray;
 	text-decoration: none;
+	padding: 5px 0px;
 }
 
 @media only screen and (min-width: 600px) {

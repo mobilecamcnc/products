@@ -153,7 +153,7 @@
 		}
 
 		render(){
-			$('menu').innerHTML = `<a href="#default" class="logo">Mobile <span>CAM</span></a>
+			$('menu').innerHTML = `<a href="https://mobilecamcnc.github.io/products/" class="logo">Mobile <span>CAM</span></a>
 															<div id="menu-buttons" class="group">
 													      <div class="features-box">
 													        <div class="hamburger onclick" data-id="open-sidebar">

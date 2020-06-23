@@ -688,3 +688,30 @@ footer a{
 .policy a span{
 	font-weight:normal;
 }
+
+.faq{
+	padding: 10px;
+	color:#666;
+}
+
+.faq h1{
+	color:#000;
+}
+
+.faq h3{
+	color:var(--main-font-color);
+	font-weight: bold !important;
+	font-size: 25px;
+}
+
+.line{
+	
+	border-bottom: 2px solid var(--main-font-color);
+	
+}
+
+@media only screen and (min-width: 768px) {
+	.faq{
+		padding: 20px;
+	}
+}

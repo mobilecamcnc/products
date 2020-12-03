@@ -400,7 +400,7 @@
 												     	<a class="item" href="https://mobilecamcnc.github.io/products/#contact">
 												     		<div class="sign"></div><label>Contact</label>
 												     	</a>
-													<a class="item" href="https://mobilecamcnc.github.io/products/#download">
+												<a class="item" href="https://mobilecamcnc.github.io/products/mobile_cam_cnc_manual.pdf" download="mobile_cam_cnc_manual_guide">
 												     		<div class="sign"></div><label>Manual guide</label>
 												     	</a>
 

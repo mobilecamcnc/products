@@ -391,7 +391,7 @@
 												     	<div style="margin-bottom:20px"></div>
 												     	
 												     	<a class="item" href="https://mobilecamcnc.github.io/products/#download">
-												     		<div class="sign"></div><label>Download</label>
+												     		<div class="sign"></div><label>Product</label>
 												     	</a>
 												     	<a class="item" href="https://mobilecamcnc.github.io/products/faq.html">
 												     		<div class="sign"></div><label>FAQ</label>
@@ -399,6 +399,9 @@
 												     	
 												     	<a class="item" href="https://mobilecamcnc.github.io/products/#contact">
 												     		<div class="sign"></div><label>Contact</label>
+												     	</a>
+													<a class="item" href="https://mobilecamcnc.github.io/products/#download">
+												     		<div class="sign"></div><label>Manual guide</label>
 												     	</a>
 
 												     	<div class="bar"></div>

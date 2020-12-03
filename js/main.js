@@ -390,7 +390,7 @@
 												     	</div>
 												     	<div style="margin-bottom:20px"></div>
 												     	
-												     	<a class="item" href="https://mobilecamcnc.github.io/products/#download">
+												     	<a class="item" href="https://mobilecamcnc.github.io/products/#product">
 												     		<div class="sign"></div><label>Product</label>
 												     	</a>
 												     	<a class="item" href="https://mobilecamcnc.github.io/products/faq.html">
